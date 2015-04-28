@@ -5,12 +5,9 @@ setTimeout(function(){
 	$('h1').textillate({ in: { effect: 'fadeInDownBig' } });
 }, 3000);
 
-	$( ".btn-elephant-jump" ).click(function() {
-
-
+	$( ".btn-name-elephant" ).click(function() {
 		        $("h1").html("hello " + $(".name-input").val() );
-		    };
-
+	});
 
 	$( ".btn-party-hat" ).click(function() {
 
@@ -20,12 +17,7 @@ setTimeout(function(){
 		    },
 		 
 		    // Duration
-		    600,
-		 
-		    // Callback to invoke when the animation is finished
-		    function() {
-		        $("h1").html("hello " + $(".name-input").val() );
-		    }
+		    600
 		).css("display","block");
 	});
 
