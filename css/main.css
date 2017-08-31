@@ -94,26 +94,53 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.elephant-img {
+    width: 380px;
+    margin: 50px;
+}
 .hat-img {
     width: 150px;
     display: none;
     position: absolute;
     top: -150px;
-    left: 56px;
+    left: 73px;
 }
 
 
+body {
+    background-image: url("../img/white_tiles.png");
+}
+
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.center {
+    margin-left: 560px;
+    margin-right: 200px;
+
+}
 
 
+.message {
 
+}
 
+.elephant-all {
 
+}
 
+#age {
+    padding-left: 20px;
+    color: red;
+}
 
-
-
-
-
+/*
+.button {
+    background-color: red;
+}*/
 
 
 
